@@ -12,7 +12,7 @@ pipeline{
                           script(
 
 
-                                branch: "main",
+                                branch: "master",
                 url:   "https://github.com/ganeshs041991/java_project.git"			   }
 
                           )		    
