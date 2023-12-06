@@ -1,0 +1,25 @@
+pipeline{
+ 
+           agent any
+
+	   stages{
+
+
+	           stage('Git checkout ')
+
+		     steps{
+
+                          script{
+
+
+                              git 'https://github.com/ganeshs041991/ganeshsfinal_java_app.git'
+			   }
+
+
+		     }
+
+
+		 } 
+
+
+	}	 
