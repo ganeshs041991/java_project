@@ -1,26 +1,30 @@
 pipeline{
- 
-           agent any
 
-	   stages{
+     agent any
 
 
-	           stage('Git checkout ')
-
-		     steps{
-
-                          script(
+      stages{
 
 
-                                branch: "master",
-                url:   "https://github.com/ganeshs041991/java_project.git"			   }
+           stage( 'Git Checkout'){
 
-                          )		    
 
+                steps{
+
+                     script{
+
+                           git branch: 'main', url: 'https://github.com/ganeshs041991/java_project.git'
+
+
+                                 } 
 			  }
 
 
-		 } 
+                   }
 
 
-	}	 
+          }
+
+
+     }
+                         
