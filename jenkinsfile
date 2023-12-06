@@ -12,9 +12,12 @@ pipeline{
                           script(
 
 
-                                 git 'https://github.com/ganeshs041991/java_project.git'			   }
+                                branch: "main",
+                url:   "https://github.com/ganeshs041991/java_project.git"			   }
 
-                          )		     }
+                          )		    
+
+			  }
 
 
 		 } 
