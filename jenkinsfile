@@ -12,10 +12,9 @@ pipeline{
                           script{
 
 
-                              git 'https://github.com/ganeshs041991/ganeshsfinal_java_app.git'
-			   }
+                                 git 'https://github.com/ganeshs041991/java_project.git'			   }
 
-
+                          }
 		     }
 
 
